@@ -1,0 +1,35 @@
+# --- GIS Data Files (ห้ามนำขึ้นเด็ดขาดเพราะขนาดใหญ่) ---
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
+*.gpkg
+*.geojson
+*.kml
+*.kmz
+*.tif
+*.tiff
+
+# --- Excel & CSV Reports (ข้อมูลส่วนตัวเกษตรกร) ---
+*.xlsx
+*.csv
+*.xls
+
+# --- Python Environment & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
